@@ -1,0 +1,28 @@
+
+.intro-card{
+    width: 100%;
+    height: 400px;
+    background-color: #227093;
+    display: flex;
+    flex-flow: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.selfie-container{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+.selfie-img{
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 100%;
+}
+
+.intro-heading{
+    font-size: 20rem;
+    font-family: 'Lexend Deca', sans-serif;
+}

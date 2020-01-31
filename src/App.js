@@ -1,6 +1,10 @@
 import React from 'react';
 
 import Navigation from './components/Navigation/Navigation';
+import IntroCard  from './components/IntroCard/IntroCard';
+import Biography from './components/Biography/Biography';
+import Projects from './components/Projects/Projects';
+
 import './css/App.css';
 
 const App = () => {
@@ -8,7 +12,11 @@ const App = () => {
   return (
       <div className="container">
         <Navigation />
-        <h1>App</h1>
+        <IntroCard />
+        <section className="information-section">
+          <Biography />
+          <Projects/>
+        </section>
       </div>
   );
 }
